@@ -1,5 +1,6 @@
 import React from "react";
 import mobileTop from "../../Images/mobiletop.svg";
+import { BsArrowRight} from "react-icons/bs"
 
 const Top = () => {
   return (
@@ -18,6 +19,9 @@ const Top = () => {
             We are building a digital community that will empower you to take
             control of your money and make it work for you.
           </p>
+          <div className="mt-3 font-medium text-base text-[green]">
+            <button className="flex items-center">Learn More <span className="ms-3"><BsArrowRight/></span></button>
+          </div>
         </div>
       </div>
     </div>

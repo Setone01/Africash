@@ -6,7 +6,7 @@ const Navbar = () => {
   
   return (
     <div className="w-full h-20 bg-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.08)]">
-      <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
+      <div className="w-[90%] h-full mx-auto flex items-center justify-between">
         <div>
           <img className="w-13 cursor-pointer" src={logo} alt="navlogo" />
         </div>
